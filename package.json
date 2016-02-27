@@ -1,6 +1,6 @@
 {
   "name": "ng2workspace-addon-webpack-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Typescript workflow for ng2workspace-addon-webpack",
   "main": "index.js",
   "homepage": "https://github.com/ng2workspace/ng2workspace-addon-webpack-ts#readme",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "peerDependencies": {
     "ng2workspace": "^0.0.2",
-    "ng2workspace-addon-webpack": "^0.0.2"
+    "ng2workspace-addon-webpack": "^0.0.2",
     "typescript": "*"
   },
   "dependencies": {
