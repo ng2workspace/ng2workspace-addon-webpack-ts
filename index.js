@@ -17,12 +17,11 @@ module.exports = function(options, workspace) {
 
   config.module.loaders.push({
     test: /\.async\.tsx?$/,
-    loaders: ['es6-promise-loader', 'ts-loader'],
-    exclude: [/\.(spec|e2e)\.ts$/]
+    loaders: ['es6-promise-loader', 'ts-loader']
   }, {
     test: /\.tsx?$/,
     loader: 'ts-loader',
-    exclude: [/\.(spec|e2e|async)\.ts$/]
+    exclude: [/\.async\.ts$/]
   });
 
   config.ts = options.loader;
